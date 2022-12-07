@@ -1,0 +1,7 @@
+.App{
+    background-color: --var(--light-main);
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas: "Nav Main";
+}

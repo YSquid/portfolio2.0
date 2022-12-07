@@ -2,17 +2,19 @@ import "./App.css";
 import Home from "../components/home/Home";
 import ProjectsList from "../components/projects/projectsList/ProjectsList";
 import Skills from "../components/skills/Skills";
-import Contact from "../components/contact/Contact";
+import Nav from "../components/nav/Nav";
+import { Link, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <>
-      <h1>App</h1>
-      <Home />
-      <ProjectsList/>
-      <Skills />
-      <Contact />
-    </>
+    <div className="App">
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/projects" element={<ProjectsList />}></Route>
+        <Route path="/skills" element={<Skills />}></Route>
+      </Routes>
+    </div>
   );
 }
 
