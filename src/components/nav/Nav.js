@@ -8,11 +8,9 @@ function Nav() {
   return (
     <div className="Nav">
       <div className="Nav_title">
-        <h1>
-          <span id="ahmad">Ahmad</span>Kariem{" "}
-          <span id="degrees">MBA, B.Sc</span>
-        </h1>
-        <h2>Full Stack Developer</h2>
+        <h1 className="Name">Ahmad Kariem</h1>
+        <h2>MBA, B.Sc</h2>
+        <h2 className="FS_dev">Full Stack Developer</h2>
         <a
           href="https://github.com/YSquid"
           target="_blank"
@@ -35,7 +33,7 @@ function Nav() {
       </div>
 
       <nav className="Nav_links">
-        <ul>
+        <ul className="Nav_items">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -47,38 +45,14 @@ function Nav() {
           </li>
         </ul>
       </nav>
-
-      <div className="Nav_footer">
-        <h2>Get In Touch</h2>
-        <ul>
-          <li>
-            <a href="mailto:ahmad.k@ysquid.tech" className="Email_icon">
-              Email: ahmad.k@ysquid.tech
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://www.linkedin.com/in/ahmad-kariem/"
-              target="_blank"
-              rel="noreferrer"
-              className="Linkedin_icon"
-            >
-              LinkedIn: linkedin.com/in/ahmad-kariem/
-            </a>
-          </li>
-
-          <li>
-            <a
-              href="https://github.com/YSquid"
-              target="_blank"
-              rel="noreferrer"
-              className="GitHub_icon"
-            >
-              GitHub: github.com/Ysquid
-            </a>
-          </li>
-        </ul>
+      <div className="CV">
+        <a
+          href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
+          download="AhmadCV"
+          target="_blank"
+        >
+          Download my CV
+        </a>
       </div>
     </div>
   );
