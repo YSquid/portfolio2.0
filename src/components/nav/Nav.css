@@ -1,3 +1,28 @@
 .Nav {
     background-color: var(--dark-backdrop);
+    max-width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 10rem;
+    padding-right: 2rem;
+    padding-left: 2rem
+}
+
+/*Title card styles*/
+#ahmad {
+    color: var(--white-text)
+}
+
+.GitHub_icon {
+    color: white;
+}
+
+.Linkedin_icon {
+    color: white;
+}
+
+.Email_icon{
+    color: white;
 }

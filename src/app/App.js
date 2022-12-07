@@ -3,7 +3,7 @@ import Home from "../components/home/Home";
 import ProjectsList from "../components/projects/projectsList/ProjectsList";
 import Skills from "../components/skills/Skills";
 import Nav from "../components/nav/Nav";
-import { Link, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 
 function App() {
   return (
