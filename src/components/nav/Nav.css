@@ -1,6 +1,6 @@
 .Nav {
   background-color: var(--dark-main);
-  max-width: 33%;
+  width: 15vw;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -53,8 +53,7 @@
   list-style: none;
   text-decoration: none;
   line-height: 1.5;
-  background-color: var(--accent-1);
-  padding: 4rem 1.5rem;
+  padding: 4rem 0;
   border-radius: 1rem;
 }
 
@@ -100,9 +99,9 @@
 
 /* MEDIA QUERIES */
 
-/*At 1050/900/750px smaller link font size*/
+/*At 1100/900/750px smaller link font size*/
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1100px) {
   .Nav_items li {
     font-size: 2.5rem;
   }
@@ -120,8 +119,8 @@
   }
 }
 
-/* Horizontal layout below 600px */
-@media only screen and (max-width: 600px) {
+/* Horizontal layout below 850px */
+@media only screen and (max-width: 850px) {
   .Nav {
     max-width: 100%;
     flex-direction: row;
