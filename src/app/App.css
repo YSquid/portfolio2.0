@@ -1,9 +1,8 @@
 .App{
-    background-color: --var(--light-main);
+    background-color: var(--light-main);
     min-height: 100vh;
     min-width: 100vw;
-    display: grid;
-    grid-template-areas: "Nav Main";
+    display: flex;
 }
 
 @media only screen and (max-width: 850px) {

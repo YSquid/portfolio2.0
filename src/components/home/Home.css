@@ -1,4 +1,32 @@
+ul:before {
+    content:attr(aria-label);
+    font-size: 120%;
+    font-weight: bold;
+    margin-left: -1.2rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+ul {
+    margin-left: 1rem;
+    line-height: 1.5;
+}
+
+
+
 .Home {
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
     align-items: center;
+}
+
+.About {
+    width: 50vw;
+}
+
+.Picture img{
+    height: 20rem;
+    border-radius: 100%;
 }
