@@ -1,10 +1,9 @@
 .Nav {
-  background-color: var(--dark-backdrop);
+  background-color: var(--dark-main);
   max-width: 33%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding-top: 2rem;
+  justify-content: space-around;
   padding-bottom: 2rem;
   padding-right: 2rem;
   padding-left: 2rem;
@@ -17,18 +16,18 @@
 }
 
 .Nav_title a:link {
-    color: var(--white-text);
-    font-size: 2rem;
+  color: var(--white-text);
+  font-size: 2rem;
 }
 
 .Nav_title a:visited {
-    color: var(--white-text);
-    font-size: 2rem;
+  color: var(--white-text);
+  font-size: 2rem;
 }
 
 .Nav_title a:hover {
-    color: var(--accent-2);
-    font-size: 2rem;
+  color: var(--accent-2);
+  font-size: 2rem;
 }
 
 .Name {
@@ -41,31 +40,27 @@
   margin-bottom: 1rem;
 }
 
-/* .GitHub_icon {
-  color: white;
-  font-size: 2rem;
-}
-
-.Linkedin_icon {
-  color: white;
-  font-size: 2rem;
-}
-
-.Email_icon {
-  color: white;
-  font-size: 2rem;
-} */
-
 /*Nav Link Styles*/
 
 .Nav_links {
   font-size: 4rem;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 1;
 }
 
 .Nav_items {
   list-style: none;
   text-decoration: none;
   line-height: 1.5;
+  background-color: var(--accent-1);
+  padding: 4rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.Nav_items li {
+  margin: 1rem 0;
+  font-size: 3rem;
 }
 
 .Nav_items li a:link {
@@ -83,6 +78,11 @@
   color: var(--accent-2);
 }
 
+#CV:hover{
+  color: var(--black-text);
+  word-break: none;
+}
+
 /*Nav footer styles*/
 
 .CV a:link {
@@ -90,11 +90,70 @@
   color: var(--accent-1);
 }
 
-
 .CV a:visited {
-    color: var(--accent-1);
+  color: var(--accent-1);
+}
+
+.CV a:hover {
+  color: var(--accent-2);
+}
+
+/* MEDIA QUERIES */
+
+/*At 1050/900/750px smaller link font size*/
+
+@media only screen and (max-width: 1050px) {
+  .Nav_items li {
+    font-size: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .Nav_items li {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .Nav_items li {
+    font-size: 1.6rem;
+  }
+}
+
+/* Horizontal layout below 600px */
+@media only screen and (max-width: 600px) {
+  .Nav {
+    max-width: 100%;
+    flex-direction: row;
+    max-height: 20vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right:0;
   }
 
-  .CV a:hover {
-    color: var(--accent-2);
+  .Nav_title {
+    max-width: 50%;
   }
+
+  .Nav_links {
+    flex-direction: row;
+  }
+
+  .Nav_items {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-height: 20vh;
+    line-height: 0;
+    background-color: transparent;
+  }
+
+  .Nav_items li {
+    font-size: 1.2rem;
+  }
+
+}

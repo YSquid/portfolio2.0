@@ -35,17 +35,26 @@ function Nav() {
       <nav className="Nav_links">
         <ul className="Nav_items">
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/">|Home|</Link>
           </li>
           <li>
-            <Link to="/projects">Projects</Link>
+            <Link to="/projects">|Projects|</Link>
           </li>
           <li>
-            <Link to="/skills">Skills</Link>
+            <Link to="/skills">|Skills|</Link>
+          </li>
+          <li>
+            <a
+              href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
+              download="AhmadCV"
+              target="_blank"
+            >
+              |Download CV|
+            </a>
           </li>
         </ul>
       </nav>
-      <div className="CV">
+      {/* <div className="CV">
         <a
           href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
           download="AhmadCV"
@@ -53,7 +62,7 @@ function Nav() {
         >
           Download my CV
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }
