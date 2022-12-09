@@ -9,7 +9,7 @@ function Nav() {
     <div className="Nav">
       <div className="Nav_title">
         <h1 className="Name">Ahmad Kariem</h1>
-        <h2>MBA, B.Sc</h2>
+        <h2>MBA, B.Sc</h2><br></br>
         <h2 className="FS_dev">Full Stack Developer</h2>
         <a
           href="https://github.com/YSquid"

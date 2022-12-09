@@ -1,15 +1,21 @@
+.Home h1 {
+    margin: 1rem 0;
+}
+
 ul:before {
     content:attr(aria-label);
-    font-size: 120%;
+    font-size: 150%;
     font-weight: bold;
     margin-left: -1.2rem;
     margin-bottom: 0.5rem;
     display: block;
 }
 
+
 ul {
     margin-left: 1rem;
     line-height: 1.5;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -20,13 +26,32 @@ ul {
     width: 100%;
     justify-content: center;
     align-items: center;
+    color: var(--white-text);
+    font-size: 1.2rem;
 }
 
 .About {
     width: 50vw;
 }
 
+.Picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .Picture img{
-    height: 20rem;
+    max-width: 90%;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 850px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .Home {
+        font-size: 0.9rem;
+    }
+  
+  }
