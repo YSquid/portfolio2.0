@@ -25,10 +25,40 @@ const projects = [
     tech: ["HTML5", "CSS3", "Git/GitHub"],
     links: {
       website: "https://mrkcbd.com/",
-      github: "https://github.com/YSquid/mrk-landing",
+      github: "https://gith ub.com/YSquid/mrk-landing",
     },
     previewURL: "../../../../assets/mrkCBD.jpg",
   },
+  {
+    id: "mrkCBD",
+    title: "Mr. K CBD Landing Page",
+    tech: ["HTML5", "CSS3", "Git/GitHub"],
+    links: {
+      website: "https://mrkcbd.com/",
+      github: "https://gith ub.com/YSquid/mrk-landing",
+    },
+    previewURL: "../../../../assets/mrkCBD.jpg",
+  },
+  {
+    id: "mrkCBD",
+    title: "Mr. K CBD Landing Page",
+    tech: ["HTML5", "CSS3", "Git/GitHub"],
+    links: {
+      website: "https://mrkcbd.com/",
+      github: "https://gith ub.com/YSquid/mrk-landing",
+    },
+    previewURL: "../../../../assets/mrkCBD.jpg",
+  },
+   {
+    id: "mrkCBD",
+    title: "Mr. K CBD Landing Page",
+    tech: ["HTML5", "CSS3", "Git/GitHub"],
+    links: {
+      website: "https://mrkcbd.com/",
+      github: "https://gith ub.com/YSquid/mrk-landing",
+    },
+    previewURL: "../../../../assets/mrkCBD.jpg",
+  }
 ];
 
 export default projects;

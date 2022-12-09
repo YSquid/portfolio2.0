@@ -1,4 +1,5 @@
 import React from "react";
+import './Project.css'
 
 function Project({ id, title, tech, links, previewURL }) {
   return (
@@ -20,7 +21,7 @@ function Project({ id, title, tech, links, previewURL }) {
         </li>
       </ul>
 
-      <img src={previewURL}/>
+      <img className="Preview_image" src={previewURL}/>
     </div>
   );
 }

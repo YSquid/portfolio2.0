@@ -1,7 +1,23 @@
 .Projects_list {
     color: var(--white-text);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 2rem;
+    width: 100%;
+    max-height: 100vh;
+    box-sizing: border-box;
 }
 
-.Project {
-    color: var(--white-text)  
+.Projects_list h1 {
+    margin-bottom: 2rem;
+}
+
+.Projects_map {
+    border: 1px solid var(--accent-2);
+    overflow: scroll;
+    min-width: 90%;
+    max-height: 100%;
+    padding: 2rem;
 }
