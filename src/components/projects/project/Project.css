@@ -1,3 +1,28 @@
+.Project {
+    display: flex;
+    align-items: center;
+    max-height: inherit;
+}
+
+.Project_left {
+    max-width: 40%
+}
+
+.Tech_list {
+    display: inline-flex;
+    list-style: none;
+}
+
+.Tech_list li{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    margin-left: 0.3rem;
+}
+
+.Tech_list li:not(:last-child):after {
+    content: ' - '
+}
+
 .Preview_image {
     width: 1rem;
 }
