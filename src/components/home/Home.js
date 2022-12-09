@@ -7,7 +7,7 @@ function Home() {
     <div className="Home">
       <div className="About">
         <h1>About Me</h1>
-        <p>
+        <div className="About_text">
           <p>Hi, I'm Ahmad.</p> <br></br>
           <p>
             I am a 100% self taught full stack developer from Saskatoon
@@ -24,7 +24,7 @@ function Home() {
             am open to in-person roles across Canada as well as remote
             positions.
           </p>
-        </p>
+        </div>
         <br></br>
 
         <ul aria-label="Interests">
