@@ -11,8 +11,9 @@ function ProjectsList() {
         {projects.map((project) => {
           const { id, title, tech, links, previewURL } = project;
           return (
-            <Project
+              <Project
               key={id}
+              id={id}
               title={title}
               tech={tech}
               links={links}

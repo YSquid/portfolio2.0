@@ -1,6 +1,5 @@
 import React from "react";
 import "./Home.css";
-import Me from "../../assets/me.jpg";
 
 function Home() {
   return (
@@ -40,7 +39,7 @@ function Home() {
         </ul>
       </div>
       <div className="Picture">
-        <img src={Me} />
+        <img src='../../../assets/me.jpg' />
       </div>
     </div>
   );

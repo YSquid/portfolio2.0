@@ -7,7 +7,7 @@ const projects = [
       website: "http://localhost:3000/",
       github: "https://github.com/YSquid/portfolio2.0",
     },
-    previewURL: "../../assets/portfolio.png",
+    previewURL: "../../../../assets/portfolio.png",
   },
   {
     id: "redditMininmal",
@@ -17,7 +17,7 @@ const projects = [
       website: "https://ak-reddit-minimal.netlify.app/",
       github: "https://github.com/YSquid/reddit-minimal",
     },
-    previewURL: "../../assets/redditClient.png",
+    previewURL: "../../../../assets/redditClient.png",
   },
   {
     id: "mrkCBD",
@@ -27,7 +27,7 @@ const projects = [
       website: "https://mrkcbd.com/",
       github: "https://github.com/YSquid/mrk-landing",
     },
-    previewURL: "../../assets/mrkCBD.jpg",
+    previewURL: "../../../../assets/mrkCBD.jpg",
   },
 ];
 
