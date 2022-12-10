@@ -6,7 +6,7 @@ import Project from "../project/Project";
 function ProjectsList() {
   return (
     <section className="Projects_list">
-      <h1>Projects I've Made</h1>
+      <h1>Projects I've Built</h1>
       <div className="Projects_map">
         {projects.map((project) => {
           const { id, title, tech, description1, description2, links, previewURL } = project;

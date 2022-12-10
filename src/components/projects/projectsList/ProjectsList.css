@@ -13,6 +13,7 @@
 
 .Projects_list h1 {
     margin-bottom: 2rem;
+    font-size: 2.75rem;
 }
 
 .Projects_map {
@@ -23,4 +24,5 @@
     background-color: var(--dark-main);
     max-width: 100%;
     box-sizing: border-box;
+    border: 0.15rem solid var(--accent-1)
 }

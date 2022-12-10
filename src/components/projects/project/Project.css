@@ -3,6 +3,7 @@
   align-items: center;
   max-height: inherit;
   margin-bottom: 5rem;
+  font-size: 1.2rem;
 }
 
 .Project_left {
@@ -19,6 +20,7 @@
 .Tech_list {
   display: inline-flex;
   list-style: none;
+  color: var(--accent-1)
 }
 
 .Tech_list li {
@@ -31,9 +33,28 @@
   content: " - ";
 }
 
+.Descriptions p {
+    margin-bottom: 1rem;
+    line-height: 1;
+}
+
 .Preview_image {
   width: 25rem;
   border: 2px solid var(--white-text);
+}
+
+.Links a:link {
+    color: var(--accent-2);
+    font-weight: 700;
+}
+
+.Links a:visited {
+    color: var(--accent-1);
+    font-weight: 700;
+}
+
+.Links a:hover {
+    color: var(--accent-1);
 }
 
 
