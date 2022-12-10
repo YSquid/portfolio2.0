@@ -9,13 +9,15 @@ function ProjectsList() {
       <h1>Projects I've Made</h1>
       <div className="Projects_map">
         {projects.map((project) => {
-          const { id, title, tech, links, previewURL } = project;
+          const { id, title, tech, description1, description2, links, previewURL } = project;
           return (
               <Project
               key={id}
               id={id}
               title={title}
               tech={tech}
+              description1={description1}
+              description2={description2}
               links={links}
               previewURL={previewURL}
             />
