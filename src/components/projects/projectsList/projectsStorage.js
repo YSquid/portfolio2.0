@@ -4,7 +4,7 @@ const projects = [
     title: "This Website",
     tech: ["React", "HTML5", "CSS3", "Git/GitHub"],
     description1:
-      "A personal portfolio website I built for myself. Utilizes several node packages including - React Router, React Icons, React Custom Scrollbars (see GitHub README for more details).",
+      "A personal portfolio website I built for myself. Utilizes several node packages including React Router and React Icons (see GitHub README for more details).",
     description2:
       "Deployed with Netlify with a connected GitHub repo for CI/CD.\n Node package manager used for bootstrapping with create-react-app, installing dependencies and build steps.",
     links: {

@@ -28,6 +28,7 @@ ul {
     align-items: center;
     color: var(--white-text);
     font-size: 1.2rem;
+    box-sizing: border-box;
 }
 
 .About {
