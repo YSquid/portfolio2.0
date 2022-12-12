@@ -1,0 +1,21 @@
+.Skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.Skills_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Technical_skills {
+    background-color: var(--accent1);
+}
+
+.Soft_skills {
+
+}
