@@ -1,28 +1,50 @@
 .Projects_list {
-    color: var(--white-text);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 2rem;
-    width: 100%;
-    max-height: 100vh;
-    max-width: inherit;
-    box-sizing: border-box;
+  color: var(--white-text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  width: 100%;
+  max-height: 100vh;
+  max-width: inherit;
+  box-sizing: border-box;
 }
 
 .Projects_list h1 {
-    margin-bottom: 2rem;
-    font-size: 2.75rem;
+  margin-bottom: 2rem;
+  font-size: 2.75rem;
 }
 
 .Projects_map {
-    overflow-y: scroll;
-    min-width: 90%;
-    max-height: 100%;
-    padding: 2rem;
-    background-color: var(--dark-main);
-    max-width: 100%;
-    box-sizing: border-box;
-    border: 0.15rem solid var(--accent-1)
+  overflow-y: scroll;
+  min-width: 90%;
+  max-height: 100%;
+  padding: 2rem;
+  background-color: var(--dark-main);
+  max-width: 100%;
+  box-sizing: border-box;
+  border: 0.15rem solid var(--accent-1);
+}
+
+/*custom webkit scrollbar options*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: var(--dark-main);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
