@@ -29,7 +29,7 @@ function Project({ id, title, tech, description1, description2, links, previewUR
         </ul>
       </div>
       <div className="Project_right">
-        <a href={links.website} target="_blank" rel="noreferrer"><img className="Preview_image" src={previewURL} /></a>
+        <a href={links.website} target="_blank" rel="noreferrer" className="Preview_link"><img className="Preview_image" src={previewURL} /></a>
       </div>
     </div>
   );
