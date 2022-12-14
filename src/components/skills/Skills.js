@@ -8,7 +8,7 @@ function Skills() {
         <div className="Technical_skills">
           <h2>Technical Skills</h2>
           <div className="Skills_list">
-            <ul className="Languages">
+            <ul className="Languages" aria-label="Languages and Frameworks">
               <li>HTML5</li>
               <li>CSS3</li>
               <li>Javascript (ES6)</li>
@@ -21,7 +21,7 @@ function Skills() {
               <li>Jest</li>
               <li>React Testing Library</li>
             </ul>
-            <ul className="Tools">
+            <ul className="Tools" aria-label="Other Tools">
               <li>Git</li>
               <li>GitHub</li>
               <li>VSCode</li>
@@ -36,7 +36,7 @@ function Skills() {
         <div className="Soft_skills">
           <h2>Soft Skills</h2>
           <div className="Skills_list">
-            <ul className="Personal">
+            <ul className="Personal" aria-label="Personal Attributes">
               <li>Strong work ethic</li>
               <li>Continuous curiosity</li>
               <li>Self motivated</li>
@@ -45,7 +45,7 @@ function Skills() {
               <li>Integrity</li>
               <li>Respectful and polite</li>
             </ul>
-            <ul className="Developed">
+            <ul className="Developed" aria-label="Professionally Developed">
                 <li>Complex problem solving</li>
                 <li>Customer service and sales</li>
                 <li>Project and people management</li>
