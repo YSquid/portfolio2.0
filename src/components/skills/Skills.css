@@ -1,5 +1,5 @@
 ul {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 .Skills {
@@ -21,10 +21,10 @@ ul {
 }
 
 .Skills_list {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
-    font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 
 .Technical_skills {
@@ -38,16 +38,16 @@ ul {
 }
 
 .Technical_skills h2 {
-    margin: 2rem;
-    font-size: 2.5rem;
+  margin: 2rem;
+  font-size: 2.5rem;
 }
 
 .Languages:before {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 .Tools:before {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 .Soft_skills {
@@ -61,35 +61,58 @@ ul {
 }
 
 .Soft_skills h2 {
-    margin: 2rem;
-    font-size: 2.5rem;
+  margin: 2rem;
+  font-size: 2.5rem;
 }
 
 .Personal:before {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 .Developed:before {
-    font-size: 120%;
+  font-size: 120%;
 }
 
 @media only screen and (max-width: 1100px) {
-    .Technical_skills h2 {
-        font-size: 2rem;
-    }
+  .Technical_skills h2 {
+    font-size: 2rem;
+  }
 
-    .Soft_skills h2 {
-        font-size: 2rem;
-    }
+  .Soft_skills h2 {
+    font-size: 2rem;
+  }
 
-    .Skills_list {
-        font-size: 1rem;
-        padding: 0;
-    }
+  .Skills_list {
+    font-size: 1rem;
+    padding: 0;
+  }
 }
 
+@media only screen and (max-width: 400px) {
+  .Skills {
+    height: 190vh;
+  }
+  
+    .Skills_container {
+    overflow-y: hidden;
+    overflow-x: none;
+    max-height: fit-content;
+  }
+  .Technical_skills h2 {
+    font-size: 1.6rem;
+  }
 
+  .Soft_skills h2 {
+    font-size: 1.6rem;
+  }
 
+  .Skills_list {
+    font-size: 0.9rem;
+    height: fit-content;
+    flex-direction: column;
+  }
 
-
-
+  .Technical_skills {
+    height: 100%;
+  }
+}
