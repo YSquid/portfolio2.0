@@ -37,18 +37,7 @@ const projects = [
       github: "https://gith ub.com/YSquid/mrk-landing",
     },
     previewURL: "../../../../assets/mrkCBD.png",
-  },
-  {
-    id: "mrkCBD",
-    title: "Mr. K CBD Landing Page",
-    tech: ["HTML5", "CSS3", "Git/GitHub"],
-    description1: 'A simple landing page for a CBD brand made with HTML5 and CSS3',
-    links: {
-      website: "https://mrkcbd.com/",
-      github: "https://gith ub.com/YSquid/mrk-landing",
-    },
-    previewURL: "../../../../assets/mrkCBD.png",
-  },
+  }
 ];
 
 export default projects;
