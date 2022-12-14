@@ -15,9 +15,11 @@ function Home() {
             pursue a field that has always interested me - computer programming.{" "}
           </p>
           <br></br>
-          In March of 2022 I started learning programming in my spare time. In
+          <p>In March of 2022 I started learning programming in my spare time. In
           September of 2022 I began dedicating myself full-time to learning
           full-stack web development.
+          </p>
+          <br></br>
           <p>
             My ultimate goal is to become a full-time professional developer. I
             am open to in-person roles across Canada as well as remote
@@ -31,7 +33,7 @@ function Home() {
             Technology - especially web development & data engineering and
             visualization
           </li>
-          <li>Sports - especially football - go Wolverines - go Bengals!</li>
+          <li>Sports - especially football - Go Bengals - Go Wolverines!</li>
           <li>Gaming - any TFT players hit me up!</li>
           <li>Fitness - sometimes this one is more of a job than interest</li>
           <li>Food - cooking it, eating it, learning about it</li>
@@ -39,7 +41,7 @@ function Home() {
         </ul>
       </div>
       <div className="Picture">
-        <img src='../../../assets/me.jpg' />
+        <img src='../../../assets/me.jpg' alt="headshot of Ahmad in a suit" />
       </div>
     </div>
   );
