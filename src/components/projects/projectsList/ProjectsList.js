@@ -7,7 +7,6 @@ function ProjectsList() {
   return (
     <section className="Projects_list">
       <h1>Projects I've Built</h1>
-      <div className="Projects_map">
         {projects.map((project) => {
           const { id, title, tech, description1, description2, links, previewURL } = project;
           return (
@@ -23,7 +22,6 @@ function ProjectsList() {
             />
           );
         })}
-      </div>
     </section>
   );
 }
