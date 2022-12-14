@@ -1,15 +1,14 @@
-.App{
-    background-color: var(--dark-backdrop);
-    min-height: 100vh;
-    max-width: 100vw;
-    display: flex;
+.App {
+  background-color: var(--dark-backdrop);
+  min-height: 100vh;
+  max-width: 100vw;
+  display: flex;
 }
 
 @media only screen and (max-width: 850px) {
-    .App{
-        background-color: --var(--light-main);
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
-    }
+  .App {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
 }
