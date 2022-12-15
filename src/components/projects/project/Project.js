@@ -1,7 +1,7 @@
 import React from "react";
 import "./Project.css";
 
-function Project({ id, title, tech, description1, description2, links, previewURL }) {
+function Project({title, tech, description1, description2, links, previewURL }) {
   return (
     <div className="Project">
       <div className="Project_left">
@@ -29,7 +29,7 @@ function Project({ id, title, tech, description1, description2, links, previewUR
         </ul>
       </div>
       <div className="Project_right">
-        <a href={links.website} target="_blank" rel="noreferrer" className="Preview_link"><img className="Preview_image" src={previewURL} /></a>
+        <a href={links.website} target="_blank" rel="noreferrer" className="Preview_link"><img className="Preview_image" src={previewURL} alt='Clickable image that links to the project' /></a>
       </div>
     </div>
   );
