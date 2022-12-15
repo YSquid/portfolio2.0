@@ -50,8 +50,8 @@ function Nav() {
           </li>
           <li>
             <a
-              href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
-              download="AhmadCV"
+              href="../../../assets/CV.pdf"
+              download="Ahmad Kariem CV"
               target="_blank"
               rel="noreferrer"
             >
