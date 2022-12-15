@@ -11,7 +11,7 @@ function Home() {
           <p>
             I am a 100% self taught full stack developer from Saskatoon
             Sasktchewan. After several years of professional experience working
-            in areas such as sales, marketing, and data analysis, I decided to
+            in areas such as tech sales, marketing, and data analysis, I decided to
             pursue a field that has always interested me - computer programming.{" "}
           </p>
           <br></br>
