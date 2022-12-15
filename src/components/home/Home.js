@@ -3,7 +3,7 @@ import "./Home.css";
 
 function Home() {
   return (
-    <div className="Home">
+    <section className="Home">
       <div className="About">
         <h1>About Me</h1>
         <div className="About_text">
@@ -43,7 +43,7 @@ function Home() {
       <div className="Picture">
         <img src='../../../assets/me.jpg' alt="headshot of Ahmad in a suit" />
       </div>
-    </div>
+    </section>
   );
 }
 
