@@ -78,6 +78,11 @@
   color: var(--accent-2);
 }
 
+.Nav_items li a.Active {
+  text-decoration: none;
+  color: var(--accent-2);
+}
+
 #CV:hover{
   color: var(--black-text);
   word-break: none;

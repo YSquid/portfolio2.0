@@ -37,7 +37,7 @@ function Nav() {
 
       <nav className="Nav_links">
         <ul className="Nav_items">
-          <li className="Active">
+          <li>
             <Link to="/" onClick={() => setActiveNav('Home')} className={activeNav === 'Home' ? 'Active' : ''}>|Home|</Link>
           </li>
           <li>
@@ -51,6 +51,7 @@ function Nav() {
               href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
               download="AhmadCV"
               target="_blank"
+              rel="noreferrer"
             >
               |Download CV|
             </a>
