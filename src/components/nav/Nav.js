@@ -9,8 +9,8 @@ function Nav() {
   const [activeNav, setActiveNav] = useState('#Home');
 
   return (
-    <div className="Nav">
-      <div className="Nav_title">
+    <nav className="Nav">
+      <section className="Nav_title">
         <h1 className="Name">Ahmad Kariem</h1>
         <h2>MBA, B.Sc</h2><br></br>
         <h2 className="FS_dev">Full Stack Developer</h2>
@@ -19,6 +19,7 @@ function Nav() {
           target="_blank"
           rel="noreferrer"
           className="GitHub_icon"
+          aria-label="Github link"
         >
           <AiFillGithub />
         </a>
@@ -27,15 +28,16 @@ function Nav() {
           target="_blank"
           rel="noreferrer"
           className="Linkedin_icon"
+          aria-label="Linkedin link"
         >
           <AiFillLinkedin />
         </a>
-        <a href="mailto:ahmad.k@ysquid.tech" className="Email_icon">
+        <a href="mailto:ahmad.k@ysquid.tech" className="Email_icon" aria-label="Email link">
           <MdEmail />
         </a>
-      </div>
+      </section>
 
-      <nav className="Nav_links">
+      <section className="Nav_links">
         <ul className="Nav_items">
           <li>
             <Link to="/" onClick={() => setActiveNav('Home')} className={activeNav === 'Home' ? 'Active' : ''}>|Home|</Link>
@@ -57,17 +59,8 @@ function Nav() {
             </a>
           </li>
         </ul>
-      </nav>
-      {/* <div className="CV">
-        <a
-          href="https://drive.google.com/file/d/1x2mc9Uwp1gL1Wp9OwQAI8VtA4HDg0Z7q/view?usp=sharing"
-          download="AhmadCV"
-          target="_blank"
-        >
-          Download my CV
-        </a>
-      </div> */}
-    </div>
+      </section>
+    </nav>
   );
 }
 
