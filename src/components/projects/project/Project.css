@@ -25,13 +25,14 @@
   display: inline-flex;
   flex-flow: wrap;
   list-style: none;
-  color: var(--accent-1)
+  color: var(--accent-1);
+  margin: 0 auto;
 }
 
 .Tech_list li {
-  margin-top: 0.2rem;
-  margin-bottom: 0.2rem;
-  margin-left: 0.3rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.2rem;
 }
 
 .Tech_list li:not(:last-child):after {
