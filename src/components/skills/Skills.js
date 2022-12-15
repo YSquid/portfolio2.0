@@ -4,7 +4,6 @@ import "./Skills.css";
 function Skills() {
   return (
     <section className="Skills">
-      <div className="Skills_container">
         <div className="Technical_skills">
           <h2>Technical Skills</h2>
           <div className="Skills_list">
@@ -56,7 +55,7 @@ function Skills() {
               </ul>
           </div>
         </div>
-      </div>
+    
     </section>
   );
 }
