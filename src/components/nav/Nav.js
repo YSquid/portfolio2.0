@@ -1,10 +1,13 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { MdEmail } from "react-icons/md";
 import "./Nav.css";
 
 function Nav() {
+
+  const [activeNav, setActiveNav] = useState('#Home');
+
   return (
     <div className="Nav">
       <div className="Nav_title">
@@ -34,14 +37,14 @@ function Nav() {
 
       <nav className="Nav_links">
         <ul className="Nav_items">
-          <li>
-            <Link to="/">|Home|</Link>
+          <li className="Active">
+            <Link to="/" onClick={() => setActiveNav('Home')} className={activeNav === 'Home' ? 'Active' : ''}>|Home|</Link>
           </li>
           <li>
-            <Link to="/projects">|Projects|</Link>
+            <Link to="/projects" onClick={() => setActiveNav('Projects')} className={activeNav === 'Projects' ? 'Active' : ''}>|Projects|</Link>
           </li>
           <li>
-            <Link to="/skills">|Skills|</Link>
+            <Link to="/skills" onClick={() => setActiveNav('Skills')} className={activeNav === 'Skills' ? 'Active' : ''}>|Skills|</Link>
           </li>
           <li>
             <a
